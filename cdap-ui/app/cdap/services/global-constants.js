@@ -23,7 +23,7 @@ const pluginLabels = {
   action: 'Conditions and Actions',
   erroralert: 'Error Handlers and Alerts',
 };
-const NUMBER_TYPES = ['integer', 'int', 'short', 'long', 'float', 'double'];
+const NUMBER_TYPES = ['integer', 'int', 'short', 'long', 'float', 'double', 'bigdecimal'];
 const GLOBALS = {
   pageLevelErrors: {
     'UNKNOWN-NAMESPACE': (invalidNS) => { return `\'namespace:${invalidNS}' was not found.`},
